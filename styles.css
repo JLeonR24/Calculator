@@ -1,6 +1,23 @@
+
 body {
-    font-family: 'Lato' !important;
-    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10em !important;
+
+    background-color: #393E46;
+    background-image: -webkit-linear-gradient(80deg, #222831 50%, #393E46 50%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    text-align: center;
+    padding: .75em;
+    font-weight: 600 !important;
+    font-size: 3em !important;
+    letter-spacing: .08em;
+    color: #efefef;
   }
 
   #container {
@@ -16,6 +33,7 @@ body {
   }
 
   .keypad {
+    font-weight: 300 !important;
     border-width: 1px;
     border-style: solid none none solid;
     border-color: #111;
@@ -31,20 +49,20 @@ body {
     position: relative;
     color: #000;
     background-color: #000;
-    margin: 10rem auto;
+    margin: 2rem auto;
   }
 
   #upperDisplay {
     height: 35px;
     color: #fff;
     font-size: 20px;
-    padding-left: 5px;
+    padding-left: 10px;
     background-color: #000;
   }
 
   #result {
     height: 100px;
-    width: 260px;
+    width: 280px;
     font-size: 60px;
     color: #fff;
     background-color: black;
@@ -79,4 +97,19 @@ body {
   }
   #zero, #dot, #equals {
     border-bottom-style: solid;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 1em;
+    padding-top: 2em !important;
+    font-weight: 600 !important;
+    color: #efefef;
+  }
+
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4em;
   }
