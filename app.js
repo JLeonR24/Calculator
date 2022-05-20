@@ -34,7 +34,7 @@ $('.keypad').click(function() {
       case 'clear':
         $('#result').html('0');
         $('#result').css('font-size', '55px');
-        upperDisplay = '';
+        upperDisplay = ''; 
         $('#upperDisplay').html(upperDisplay);
         comm = false;
         break;
